@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>软件下载</title>
+  <title>软件下载集合</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -27,40 +27,75 @@
       color: #333;
     }
 
-  .download-section {
-      margin-top: 30px;
+  .software-section {
+      margin-top: 20px;
       border-top: 1px solid #ccc;
-      padding-top: 20px;
+      padding-top: 10px;
+    }
+
+  .software-item {
+      margin-bottom: 15px;
+    }
+
+  .software-title {
+      font-weight: bold;
+      color: #007bff;
     }
 
   .download-link {
-      display: block;
-      margin-bottom: 15px;
-      padding: 10px;
+      display: inline-block;
+      margin-top: 5px;
+      padding: 5px 10px;
       background-color: #007bff;
       color: #fff;
       text-decoration: none;
-      border-radius: 5px;
-      text-align: center;
+      border-radius: 3px;
     }
 
   .download-link:hover {
       background-color: #0056b3;
-    }
-
-  .description {
-      margin-top: 20px;
-      color: #666;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>软件下载页面</h1>
-    <div class="download-section">
-      <a href="https://ghproxy.cc/https://github.com/wwz09/TVBoxOSC/releases/download/wwz09-duocangbox/TVBox_wwz09_20241107-1055.apk" class="download-lin">点击下载软件</a>
-      <p class="description">这是软件的简短描述，介绍软件的主要功能和特点。例如：这是一款高效的文件管理软件，能够帮助你快速整理和查找文件。</p>
+    <h1>软件下载中心</h1>
+    <!-- 办公软件 -->
+    <div class="software-section">
+      <h2 class="software-title">办公软件</h2>
+      <div class="software-item">
+        <p>Microsoft Word - 强大的文字处理软件</p>
+        <a href="https://go.microsoft.com/fwlink/?linkid=2102622" target="_blank" class="download-link">下载Windows版</a>
+      </div>
+      <div class="software-item">
+        <p>WPS Office - 国产办公套件</p>
+        <a href="https://www.wps.cn/product/wpsoffice/" target="_blank" class="download-link">官方下载</a>
+      </div>
+    </div>
+    <!-- 设计软件 -->
+    <div class="software-section">
+      <h2 class="software-title">设计软件</h2>
+      <div class="software-item">
+        <p>Adobe Photoshop - 专业图像处理软件</p>
+        <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="download-link">Adobe官网下载（需购买订阅）</a>
+      </div>
+      <div class="software-item">
+        <p>Sketch - 专注UI设计的矢量图形工具（仅Mac）</p>
+        <a href="https://apps.apple.com/us/app/sketch/id402543214" target="_blank" class="download-link">Mac App Store下载</a>
+      </div>
+    </div>
+    <!-- 编程软件 -->
+    <div class="software-section">
+      <h2 class="software-title">编程软件</h2>
+      <div class="software-item">
+        <p>Visual Studio Code - 轻量级代码编辑器</p>
+        <a href="https://code.visualstudio.com/" target="_blank" class="download-link">官方下载</a>
+      </div>
+      <div class="software-item">
+        <p>PyCharm - Python开发集成环境</p>
+        <a href="https://www.jetbrains.com/pycharm/download/" target="_blank" class="download-link">官方下载</a>
+      </div>
     </div>
   </div>
 </body>
